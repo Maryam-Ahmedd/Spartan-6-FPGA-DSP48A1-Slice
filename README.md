@@ -36,6 +36,7 @@ BCOUT: Provides the B output for cascading to adjacent slices.
 PCIN, PCOUT: Allow cascading of the 48-bit P result between adjacent DSP48A1 slices.
 
 ## Block diagram
+![image](https://github.com/user-attachments/assets/66bbc947-05d8-4f77-84ef-4067c79ec7ad)
 
 
 ## Used tools 
