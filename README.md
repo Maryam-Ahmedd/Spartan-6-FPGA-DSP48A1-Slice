@@ -1,7 +1,7 @@
 # Spartan-6-FPGA-DSP48A1-Slice
 This project Implements and tests the DSP48A1 slice in Spartan-3A FPGAs. Features include an 18-bit pre-adder, 18x18 multiplier, 48-bit adder/accumulator, and configurable pipelining. Verilog code supports arithmetic operations and cascading, with a testbench validating functionality.
 
-## Design overview
+## Design Specifications
 ### Parameters and Attributes
 Pipeline Registers: Parameters such as A0REG, A1REG, B0REG, B1REG, CREG, DREG, MREG, PREG, CARRYINREG, CARRYOUTREG, and OPMODEREG define the number of pipeline stages, typically defaulting to 1 (registered) excepting A0REG,B0REG defaulting to 0 (not registered).
 
@@ -35,7 +35,13 @@ BCOUT: Provides the B output for cascading to adjacent slices.
 
 PCIN, PCOUT: Allow cascading of the 48-bit P result between adjacent DSP48A1 slices.
 
+## Block diagram
 
+
+## Used tools 
+Questasim
+
+Xilinix Vivado
 
 This comprehensive specification ensures the DSP48A1 slice is optimally configured for high-performance digital signal processing applications within the Spartan-6 FPGA. For more info, refer to the original doc Spartan-6 FPGA DSP484A1 Slice (User Guide)
 
