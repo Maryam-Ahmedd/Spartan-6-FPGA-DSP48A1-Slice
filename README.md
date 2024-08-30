@@ -35,6 +35,7 @@ BCOUT: Provides the B output for cascading to adjacent slices.
 
 PCIN, PCOUT: Allow cascading of the 48-bit P result between adjacent DSP48A1 slices.
 
+This comprehensive specification ensures the DSP48A1 slice is optimally configured for high-performance digital signal processing applications within the Spartan-6 FPGA. For more info, you can check the user guide attached above or use this link https://docs.amd.com/v/u/en-US/ug389
 ## Block diagram
 ![image](https://github.com/user-attachments/assets/66bbc947-05d8-4f77-84ef-4067c79ec7ad)
 
@@ -44,7 +45,6 @@ Questasim
 
 Xilinix Vivado
 
-This comprehensive specification ensures the DSP48A1 slice is optimally configured for high-performance digital signal processing applications within the Spartan-6 FPGA. For more info, refer to the original doc Spartan-6 FPGA DSP484A1 Slice (User Guide)
+## Results 
+In the main branch, a folder named results has been created. This folder contains snippets of waveforms from all testbench modules, generated using QuestaSim. Additionally, it includes screenshots from the elaboration, implementation, and synthesis stages, as well as some useful reports generated with Vivado.
 
-The overall block diagram with the hierarchy of testing anotated below
-Block Diagram
